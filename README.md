@@ -182,6 +182,60 @@ Añade métodos para la lógica de negocio dentro de cada clase de modelo  que h
 😎🏋️‍♂️
 
 
+## Run Locally 
+
+Clona  el  proyecto
+
+```bash
+  git clone  https://github.com/ldordellygithub/NevadaEnergyapp.git
+```
+* Importante si  ya  lo  clonaste  no  clones  nuevamente 🙉.! 
+
+Verifica  el  directorio de  tu  proyecto desde  la  termianal
+
+```bash
+  cd my-project
+```
+
+1.	Configuración del Entorno de Desarrollo:
+
+        * Instala Java JDK (versión recomendada 17).
+        * Descarga e instala IntelliJ IDEA o NeatBeans.
+        * Configura las variables de entorno JAVA_HOME y PATH.
+
+2.	Importar el Proyecto:
+
+        * Abre IntelliJ IDEA o NeatBeans.
+        * Selecciona “Open” o “Import Project”.
+        * Navega al directorio del proyecto y selecciona el archivo pom.xml o el directorio raíz
+        (omitir este paso)
+
+3.	Revisar la Estructura del Proyecto:
+
+        * Familiarízate con la estructura de directorios Maven (src/main/java, src/main/resources, src/test).
+
+        * Revisa los paquetes de controladores, modelos, servicios y repositorios.
+
+4.	Configuraciones Iniciales (Omitir  este  paso):
+
+
+        * Examina el archivo application.properties o application.yml para las configuraciones de Spring Boot.
+         * Asegúrate de que las dependencias en pom.xml estén correctamente definidas.
+
+5.	Ejecutar el Proyecto:
+
+        * Utiliza la función “Run” de tu IDE para iniciar la aplicación.
+
+        * Verifica que la aplicación se inicie sin errores y que los endpoints estén accesibles.
+
+6.	Desarrollo y Pruebas:
+
+	    * Comienza a agregar o modificar controladores, servicios y modelos según los requisitos.
+	
+        * Escribe pruebas unitarias y de integración en src/test.
+
+
+
 
     
 ## Feedback
