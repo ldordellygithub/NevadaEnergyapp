@@ -236,6 +236,105 @@ Verifica  el  directorio de  tu  proyecto desde  la  termianal
 
 
 
+   ## FLUJO  DE  TRABAJO  GIT FLOW
+
+
+“Flujo de Trabajo Eficaz en Git para Energy Guard  App”
+
+Paso 1: Configuración del entorno de desarrollo
+
+        * Asegúrate de que  tengas instalado el Java Development Kit (JDK), versión 17 o superior.
+        * Se deben tener un IDE instalado, ya sea IntelliJ IDEA o NetBeans.
+        * Verifica que las variables de entorno JAVA_HOME y PATH estén configuradas correctamente en todas las máquinas.
+
+
+Paso 2: Clonar el repositorio
+
+•	Cada miembro del equipo debe clonar el repositorio remoto en su máquina local utilizando el comando
+
+ ```bash
+        git clone https://github.com/ldordellygithub/NevadaEnergyapp.git 
+```
+Paso 3: Cambiar a la rama ‘feature’
+
+Después de clonar el repositorio, debes cambiar a la rama ‘feature’ utilizando el comando:
+
+
+```bash
+        git  checkout feature
+```
+
+Paso 4: Desarrollar las funcionalidades
+
+    * Ahora, puedes empezar a desarrollar las funcionalidades necesarias en la rama ‘feature’  según las  indicaciones  de  tu  proyect manager .
+    *  Recuerden hacer commits frecuentes con mensajes descriptivos utilizando
+    * RECUERDA de  lo que  hiciste  en cada  funcionalidad realizada  por  tu código..!
+
+
+```bash
+    git commit -m "mensaje descriptivo"  
+```  
+
+
+Paso 5: Sincronizar con el repositorio remoto
+
+Después de hacer algunos cambios, deben sincronizar su rama ‘feature’ local con la rama ‘feature’ en el repositorio remoto utilizando: 
+
+
+```bash
+    git push origin feature
+```  
+
+
+Paso 6: Solicita una revisión de código
+
+    * Una vez que hayan terminado de desarrollar las funcionalidades en la rama ‘feature’, deben solicitar una revisión de código. 
+
+    * Esto se puede hacer creando una pull request en la interfaz web de GIthub  o de  su sistema de control de versiones.
+
+Paso 7: Fusionar ‘feature’ en ‘develop’
+
+Después de que la revisión de código haya sido aprobada, puedes fusionar la rama ‘feature’ en la rama ‘develop’. Para hacer esto, primero debes cambiar a la rama ‘develop’ con:
+
+```bash
+ git checkout develop
+``` 
+
+ Luego debes traer los últimos cambios de la rama ‘develop’ del repositorio remoto con:
+
+```bash
+  git pull origin develop 
+``` 
+  Finalmente puedes fusionar la rama ‘feature’ en ‘develop’ con  el  comando 
+  
+```bash
+  git merge feature
+``` 
+
+Paso 8: Resolver conflictos de fusión
+
+Si hay conflictos de fusión, deben resolverlos manualmente. 
+
+Una vez resueltos, deben hacer un commit con:
+
+```bash
+ git commit -m "resuelto conflictos de fusión" 
+ ``` 
+
+ y luego un push a la rama ‘develop’ en el repositorio remoto con el comando:
+ 
+ ```bash
+ git push origin develop
+ ``` 
+
+Paso 9: Tomate  un café en honor   “Java”; 
+
+
+😎🏋️‍♂️ 💻 😎
+
+
+
+
 
     
 ## Feedback
