@@ -125,6 +125,64 @@ git pull origin nombre-de-la-rama
 Recuerda reemplazar nombre-de-la-rama con el nombre de la rama que deseas actualizar.
 
 
+## ESTRUCTURA DEL  PROYECTO
+
+
+Estructura del Proyecto
+
+1.	Familiarizarse con la Estructura:
+
+    	.mvn: Contiene scripts del wrapper de Maven.
+    	src: Contiene el código fuente.
+    	main: Código principal de la aplicación.
+    	java: Paquetes y clases Java.
+    	resources: Recursos como archivos configuración.
+    	test: Pruebas de la aplicación.
+
+2.	Modelos :  Navega hasta 
+
+        src/main/java/com/moduloGestionUsuarios/models.
+
+Crea clases Java para tus modelos 
+    
+        (por ejemplo, User.java).
+
+
+
+Desarrollo de los   Modelos:
+
+1.	Crear Clases de Modelos:
+
+    Define las clases en el paquete models:
+    
+        Ejemplo: public class User { ... }.
+
+2.	Atributos y Métodos:
+
+Define atributos representativos: 
+
+    private String username;
+
+Implementa métodos getters y setters.
+
+        public  void  setUsers(){
+            // ejemplo  metho  setters
+        };
+
+        public  int getUsers(){
+            //  ejemplo  metho  getters
+        };
+
+
+3.	Lógica de Negocio:
+
+Añade métodos para la lógica de negocio dentro de cada clase de modelo  que haz  elaborado.!!
+
+
+😎🏋️‍♂️
+
+
+
     
 ## Feedback
 
