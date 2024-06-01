@@ -22,9 +22,13 @@ Nuestro primer proyecto colaborativo es el testimonio de nuestra dedicación y e
 
 Nuestra misión es firme: adoptar las tecnologías emergentes y las estrategias de innovación más avanzadas para ofrecer productos que no solo satisfagan las necesidades actuales sino que también inspiren el futuro de la industria y enriquezcan la vida cotidiana. Con un espíritu de colaboración y una cultura inclusiva, nos desafiamos a nosotros mismos para explorar nuevos horizontes y transformar visiones audaces en éxitos concretos.
 
-## Documentation
+## Documento  de Diseño ( DESIG Document)
 
 [Documentation](https://linktodocumentation)
+
+## Arquitectura  del  sistema 
+
+![diagrama_altonivelhomeapp](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/1ca6af35-46a2-4c01-bead-fe2509f7bad5)
 
 
 ## Instalacion  en  tu Repositorio  local
