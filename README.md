@@ -25,7 +25,7 @@ Nuestra misión es firme: adoptar las tecnologías emergentes y las estrategias 
 
 ## Arquitectura  del  sistema 
 
-![diagrama_altonivelhomeapp](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/1ca6af35-46a2-4c01-bead-fe2509f7bad5)
+![Uploading Copia de Arquitectura_toodo-diagramaHomeEnergy(An).drawio.png…]()
 
 
 ## Instalacion  en  tu Repositorio  local
