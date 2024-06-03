@@ -28,7 +28,7 @@ Nuestra misión es firme: adoptar las tecnologías emergentes y las estrategias 
 ![Copia de Arquitectura_toodo-diagramaHomeEnergy(An) drawio](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/935327b8-3f63-4353-a44e-426cf6e6cad4)
 
 
-## Diagrama  de de  flujo  de  autentitcacion   OAuth +  Spring y Okta
+## Diagrama   flujo  de  autenticacion Users (security-backend ---->>  OAuth +  Spring y Okta)
 
 ![Copia de Arquitectura_toodo-securityBackend_LoguinToken drawio](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/c215931f-2841-4ba8-8731-610d344d6f72)
 
