@@ -34,7 +34,8 @@ Nuestra misión es firme: adoptar las tecnologías emergentes y las estrategias 
 
 
 ## Diagrama   bajo nivel  de  entidades (security-backend componet-internt )
-![Uploading Untitled diagram-2024-06-04-024003.png…]()
+![Untitled diagram-2024-06-04-024003](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/d33f7796-0441-40df-8d5b-8b816c775978)
+
 
 
 ## Instalacion  en  tu Repositorio  local
