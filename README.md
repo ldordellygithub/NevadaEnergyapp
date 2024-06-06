@@ -189,6 +189,21 @@ Implementa métodos getters y setters.
 
 Añade métodos para la lógica de negocio dentro de cada clase de modelo  que haz  elaborado.!!
 
+## Flujo de Trabajo del Componente Security-backend
+
+El flujo de trabajo para el componente Security-backend   seguira  estos pasos:
+
+* Modelado de Datos: Crear modelos de datos para las entidades.
+* Persistencia de Datos: Configurar repositorios para la gestión de las operaciones CRUD.
+* Lógica de Negocio: Implementar servicios que contengan la lógica de negocio.
+* Configuración de Seguridad: Configurar la seguridad del sistema (e.g., Spring Security).
+* Exposición de API: Crear controladores que expongan las APIs necesarias.
+* Utilidades: Implementar utilidades necesarias, como la generación de tokens JWT.
+*Pruebas: Realizar pruebas unitarias y de integración para asegurar el correcto funcionamiento.
+*Despliegue a  un  ambiente  de  pruebas
+*Realizar   integración   y  flujo  para    canalización de AWS CodePipeline
+* Ejecutar  instancias    con  AWS CodeDeploy.
+
 
 😎🏋️‍♂️
 
