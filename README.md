@@ -199,9 +199,9 @@ El flujo de trabajo para el componente Security-backend   seguira  estos pasos:
 * Configuración de Seguridad: Configurar la seguridad del sistema (e.g., Spring Security).
 * Exposición de API: Crear controladores que expongan las APIs necesarias.
 * Utilidades: Implementar utilidades necesarias, como la generación de tokens JWT.
-*Pruebas: Realizar pruebas unitarias y de integración para asegurar el correcto funcionamiento.
-*Despliegue a  un  ambiente  de  pruebas
-*Realizar   integración   y  flujo  para    canalización de AWS CodePipeline
+* Pruebas: Realizar pruebas unitarias y de integración para asegurar el correcto funcionamiento.
+* Despliegue a  un  ambiente  de  pruebas
+* Realizar   integración   y  flujo  para    canalización de AWS CodePipeline
 * Ejecutar  instancias    con  AWS CodeDeploy.
 
 
