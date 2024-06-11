@@ -296,6 +296,11 @@ Paso 4: Desarrollar las funcionalidades
     *  Recuerden hacer commits frecuentes con mensajes descriptivos utilizando
     * RECUERDA de  lo que  hiciste  en cada  funcionalidad realizada  por  tu código..!
 
+ Agrega todo    los  cambios  de  tu  repositorio  local  es  decir  es  tu  area  de preparacion   con el  comando: 
+ 
+```bash
+    git add .  
+```  
 
 ```bash
     git commit -m "mensaje descriptivo"  
