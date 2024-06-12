@@ -37,7 +37,6 @@ Nuestra misión es firme: adoptar las tecnologías emergentes y las estrategias 
 ![Untitled diagram-2024-06-04-024003](https://github.com/ldordellygithub/NevadaEnergyapp/assets/112001988/d33f7796-0441-40df-8d5b-8b816c775978)
 
 
-
 ## Instalacion  en  tu Repositorio  local
 
 
