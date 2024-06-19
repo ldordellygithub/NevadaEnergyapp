@@ -40,7 +40,7 @@ public class User {
         return Role;
     }
     // Método que permite el cambio de Password si oldkey concuerda con la contraseña almacenada
-    private boolean changePassword(User user, String oldKey, String newKey) {
+    protected boolean changePassword(String oldKey, String newKey) {
         if (user.getPassword().equals(oldKey)) {
             user.setPassword(newKey);
             return true;
