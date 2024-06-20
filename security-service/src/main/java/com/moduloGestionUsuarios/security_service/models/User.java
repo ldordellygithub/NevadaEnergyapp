@@ -39,13 +39,14 @@ public class User {
     public String getRole(){
         return Role;
     }
-    // Método que permite el cambio de Password si oldkey concuerda con la contraseña almacenada
-    protected boolean changePassword(String oldKey, String newKey) {
-        if (user.getPassword().equals(oldKey)) {
-            user.setPassword(newKey);
+    
+    // Método protegido para cambiar la contraseña
+    protected boolean changePassword(String oldkey, String newkey) {
+        if (this.Password.equals(oldkey)) {
+            this.Password = newkey;
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
+    
 }
