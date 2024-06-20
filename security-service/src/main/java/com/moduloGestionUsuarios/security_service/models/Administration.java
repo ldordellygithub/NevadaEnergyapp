@@ -1,5 +1,6 @@
 package com.moduloGestionUsuarios.security_service.models;
 
+<<<<<<< HEAD
 import java.util.List;
 import java.util.ArrayList;
  
@@ -39,3 +40,8 @@ public class Administration extends User {
         userList.remove(user);
     }
 }
+=======
+public class Administration {
+
+}
+>>>>>>> origin/develop
