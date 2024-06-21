@@ -44,8 +44,19 @@ public class Login {
         }
     }
     
+    // Método para validar la entrada de datos
+    
     public boolean validateInput() {
-    }
-    
-    
+        // Verificar si algún campo es nulo o está vacío
+        if (Username == null || Username.isEmpty()) {
+            return false;
+        }
+        if (Email == null || Email.isEmpty()) {
+            return false;
+        }
+        if (Password == null || Password.isEmpty()) {
+            return false;
+        }
+        return true;
+    }   
 }
