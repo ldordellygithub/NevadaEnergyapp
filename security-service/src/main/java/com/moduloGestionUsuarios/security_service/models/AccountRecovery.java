@@ -1,8 +1,7 @@
 package com.moduloGestionUsuarios.security_service.models;
+
 import lombok.Setter;
 import  lombok.Getter;
-
-
 
 public class AccountRecovery {
 

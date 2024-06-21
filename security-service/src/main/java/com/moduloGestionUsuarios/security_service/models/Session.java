@@ -6,7 +6,7 @@ import lombok.Setter;
 import  lombok.Getter;
 
 public class Session {
-    private User username; //   relacion   Composición: Session contiene a un User
+    private User username; //   relacion   Composición: Session contiene a un User  con   esta  variable
     private String sessionStatus;
     private Date startTime;
     private Date endTime;
@@ -15,7 +15,7 @@ public class Session {
     public Session(User user) {
         this.username = user;
         this.sessionStatus = "activa"; // Estado inicial de la sesión
-        this.startTime = new Date(); // La sesión comienza a
+        this.startTime = new Date(); // La sesión comienza en
     }
 
 
